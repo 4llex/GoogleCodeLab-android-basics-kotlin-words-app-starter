@@ -1,6 +1,7 @@
 package com.example.wordsapp
 
 import androidx.fragment.app.Fragment
+import com.example.wordsapp.databinding.FragmentWordListBinding
 
 
 /**
@@ -10,5 +11,7 @@ import androidx.fragment.app.Fragment
  */
 class WordListFragment : Fragment() {
 
+    private var _binding: FragmentWordListBinding? = null
+    private val binding get() = _binding!!
 
 }
